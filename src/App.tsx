@@ -15,7 +15,7 @@ export default function App() {
               alt="Flowbite Logo"
             />
             <span className="self-center text-2xl font-semibold text-custom-green whitespace-nowrap">
-              Flowbite
+              Amos Babu
             </span>
           </a>
         </div>
@@ -82,19 +82,17 @@ export default function App() {
         </div>
       </nav>
       <div className="container flex flex-col items-center gap-10 mx-auto md:flex-row">
-        <div className="box-border w-1/4 h-full mt-4 bg-red-400 border-4 rounded-full">
-          <img className="rounded-full" src={Profile} alt="Profile picture"/>
+        <div className="box-border w-1/4 h-full mt-4 border-4 rounded-full">
+          <img className="rounded-full" src={Profile} alt="Profile picture" />
         </div>
         <div className="w-3/4">
           <h3 className="text-xl text-custom-green">
             Full Stack Developer @ Rugged Software | Technical Content Creator
           </h3>
-          <span className="pt-5 text-custom-green">
-            I’m a full stack dev experienced with TS, React, Laravel, Python,
-            and APIs. I also love math and education! Currently looking for
-            roles in front end or full stack development, or developer relations
-            and advocacy. Outside of programming, my hobbies include reading,
-            cuddling with my dogs, hiking, and streaming.
+          <span className="block pt-5 text-custom-green">
+            Passionate full-stack developer with experience in React
+            (TypeScript), Laravel, Livewire and Python. I enjoy creating smooth
+            user experiences and clean code.
           </span>
         </div>
       </div>
