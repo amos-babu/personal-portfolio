@@ -45,12 +45,12 @@ Follow these steps to run the project locally:
 
 4. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
 
 5. Open your browser and navigate to:
    ```
-   http://localhost:3000
+   http://localhost:5173/
    ```
 
 ---
@@ -112,9 +112,9 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 Feel free to reach out to me:
 
-- Email: your-email@example.com
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-profile)
-- Twitter: [Your Twitter](https://twitter.com/your-handle)
+- Email: amos.babu@yahoo.com
+- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/amos-babu-275597202/)
+- My Portfolio: [Your LinkedIn](https://https://amos-babu.netlify.app)
 
 ---
 
