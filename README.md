@@ -6,7 +6,7 @@ Welcome to my personal portfolio! This project showcases my skills, experience, 
 
 ## Features
 
-- **About Me Section:** A brief introduction about who I am and what I do.
+- **Introduction:** A brief introduction about who I am and what I do.
 - **Projects Showcase:** A detailed display of projects I have worked on, with links to their GitHub repositories.
 - **Contact Form:** Allows visitors to reach out to me directly.
 - **Responsive Design:** Looks great on all devices, from desktops to smartphones.
@@ -19,7 +19,8 @@ Welcome to my personal portfolio! This project showcases my skills, experience, 
 - **React**: Frontend framework for building a dynamic UI.
 - **Tailwind CSS**: For styling the application with modern, utility-first classes.
 - **React Router**: For navigation between pages.
-- **EmailJS**: For handling the contact form submissions (if implemented).
+-  **Typescript**: For handling the type setting nature of javascript.
+- **EmailJS**: For handling the contact form submissions.
 
 ---
 
