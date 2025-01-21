@@ -9,8 +9,8 @@ export default function App() {
       <div className="container grid mx-auto justify-items-center">
         <Introduction />
         <AboutMe />
-        {/* <GetInTouch/>
-        <Technologies/> */}
+        <GetInTouch />
+        <Technologies />
       </div>
     </>
   );

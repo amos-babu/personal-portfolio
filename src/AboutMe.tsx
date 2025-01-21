@@ -2,7 +2,7 @@ export const AboutMe = () => {
   return (
     <div
       id="target-section"
-      className="flex items-center justify-center h-64 mt-20 mb-20 md:mt-20 "
+      className="flex items-center justify-center h-64 mt-20 mb-20 sm:mt-100 "
     >
       <div>
         <p className="mb-5 font-mono text-xl font-light leading-tight tracking-wide">
