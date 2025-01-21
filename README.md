@@ -113,8 +113,8 @@ This project is open-source and available under the [MIT License](LICENSE).
 Feel free to reach out to me:
 
 - Email: amos.babu@yahoo.com
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/amos-babu-275597202/)
-- My Portfolio: [Your LinkedIn](https://https://amos-babu.netlify.app)
+- LinkedIn: [Amos Babu](https://www.linkedin.com/in/amos-babu-275597202/)
+- My Portfolio: [Amos Babu](https://amos-babu.netlify.app)
 
 ---
 
