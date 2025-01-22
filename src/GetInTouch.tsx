@@ -4,11 +4,16 @@ import BlueSky from "./assets/socials/bluesky.svg";
 
 export const GetInTouch = () => {
   return (
-    <div className="mt-20">
-      <p className="font-mono text-2xl font-bold">
-        Would you like to work with me?
-      </p>
-      <p className="mt-5 font-mono text-xl text-center">Get in touch!</p>
+    <div className="grid grid-cols-1 mx-5 text-center">
+      <div>
+        <p className="font-mono text-2xl font-bold">
+          Would you like to work with me?
+        </p>
+      </div>
+      <div>
+        {" "}
+        <p className="mt-5 font-mono text-xl text-center">Get in touch!</p>
+      </div>
       <div className="flex justify-center gap-10 mt-4">
         <a href="https://www.linkedin.com/in/amos-babu-275597202/">
           <img src={LinkedIn} alt="LinkedIn Logo" className="w-12 h-12" />
@@ -27,7 +32,6 @@ export const GetInTouch = () => {
           <img src={BlueSky} alt="BlueSky Logo" className="w-12 h-12" />
         </a>
       </div>
-
     </div>
   );
 };
