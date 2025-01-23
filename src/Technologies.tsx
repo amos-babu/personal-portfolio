@@ -43,7 +43,7 @@ export const Technologies = () => {
         </div>
         <div>
           {" "}
-          <img src={Livewire} alt="Livewire Logo" className="w-100 h-100" />
+          <img src={Livewire} alt="Livewire Logo" className="w-12 h-12" />
         </div>
         <div>
           {" "}
