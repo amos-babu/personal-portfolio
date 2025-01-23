@@ -1,9 +1,9 @@
-import { AboutMe } from "./AboutMe";
-import { Introduction } from "./Introduction";
-import { GetInTouch } from "./GetInTouch";
-import { Technologies } from "./Technologies";
-import Projects from "./Projects";
-import Footer from "./Footer";
+import { AboutMe } from "./components/AboutMe";
+import { Introduction } from "./components/Introduction";
+import { GetInTouch } from "./components/GetInTouch";
+import { Technologies } from "./components/Technologies";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (

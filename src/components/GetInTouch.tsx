@@ -1,6 +1,6 @@
-import LinkedIn from "./assets/socials/linkedin.svg";
-import Github from "./assets/socials/github.svg";
-import BlueSky from "./assets/socials/bluesky.svg";
+import LinkedIn from "../assets/socials/linkedin.svg";
+import Github from "../assets/socials/github.svg";
+import BlueSky from "../assets/socials/bluesky.svg";
 
 export const GetInTouch = () => {
   return (
@@ -14,7 +14,7 @@ export const GetInTouch = () => {
         {" "}
         <p className="mt-5 font-mono text-xl text-center">Get in touch!</p>
       </div>
-      <div className="flex justify-center gap-10 mt-4">
+      <div className="flex flex-wrap justify-center gap-10 mt-4">
         <a href="https://www.linkedin.com/in/amos-babu-275597202/">
           <img src={LinkedIn} alt="LinkedIn Logo" className="w-12 h-12" />
         </a>
