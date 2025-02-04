@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title":"Books Laravel Api",
+        "desciption":"This repository manages books using Laravel as a REST API, allowing adding, updating, deleting, and listing books while following Laravel best practices for efficiency and robustness.",
+        "github":"https://github.com/amos-babu/react_api",
+        "screenshotUrl":"/imgs/books_api.png"
+    },
+    {
+        "id": 2,
+        "title":"Dxf downloader and uploader",
+        "desciption":"React application with Laravel as a Rest Api for downloading, uploading, and displaying dxf and picture files.",
+        "github":"https://github.com/amos-babu/dxf_downloader_uploader-backend-",
+        "screenshotUrl":"/imgs/dxf_downloader.PNG"
+    },
+    {
+        "id": 3,
+        "title":"Realtime messaging application",
+        "desciption":"This is a Realtime Chat Application built with Laravel Livewire, Tailwind CSS, and Reverb for managing real time messages when messaging you friends and loved ones.",
+        "github":"https://github.com/amos-babu/realtime-chat-application",
+        "screenshotUrl":"/imgs/livewire-chat.PNG"
+    },
+    {
+        "id": 4,
+        "title":"eCommerce System",
+        "desciption":"eCommerce application system using Laravel as API server and React as client frontend",
+        "github":"https://github.com/amos-babu/online-ecommerce-system",
+        "screenshotUrl":"/imgs/shop_go.PNG"
+    },
+    {
+        "id": 5,
+        "title":"Shopping Cart",
+        "desciption":"Advanced shopping cart using react and typescript ",
+        "github":"https://github.com/amos-babu/advanced_shopping_cart_typescript_react",
+        "screenshotUrl":"/imgs/shopping_cart.PNG"
+    }
+]
