@@ -8,8 +8,11 @@ const Projects = () => {
       </div>
 
       <div className="flex flex-col flex-wrap justify-center gap-20 mb-10 md:flex-row">
-        { projects.map((project) => (
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        {projects.map((project) => (
+          <div
+            key={project.id}
+            className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          >
             <a href={project.github} target="_blank" rel="noopener noreferrer">
               <img
                 className="rounded-t-lg"
@@ -46,9 +49,9 @@ const Projects = () => {
                 >
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M1 5h12m0 0L9 1m4 4L9 9"
                   />
                 </svg>

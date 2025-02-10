@@ -8,7 +8,8 @@ const Footer = () => {
           </span>
           <div className="flex mt-4 space-x-5 sm:justify-center md:mt-0 rtl:space-x-reverse">
             <a
-              href="#"
+            target="_blank"
+              href="https://www.facebook.com/people/Amos-Babu/"
               className="text-gray-400 hover:text-lime-700 dark:hover:text-white"
             >
               <svg
@@ -42,7 +43,7 @@ const Footer = () => {
               <span className="sr-only">Discord community</span>
             </a>
             <a
-              href="#"
+              href="https://x.com/glimmering_wiz"
               className="text-gray-400 hover:text-lime-700 dark:hover:text-white"
             >
               <svg
@@ -61,7 +62,7 @@ const Footer = () => {
               <span className="sr-only">Twitter page</span>
             </a>
             <a
-              href="#"
+              href="https://github.com/amos-babu"
               className="text-gray-400 hover:text-lime-700 dark:hover:text-white"
             >
               <svg
