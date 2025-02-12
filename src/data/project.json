@@ -30,8 +30,15 @@
     {
         "id": 5,
         "title":"Shopping Cart",
-        "desciption":"Advanced shopping cart using react and typescript ",
+        "desciption":"Advanced shopping cart using react and typescript",
         "github":"https://github.com/amos-babu/advanced_shopping_cart_typescript_react",
         "screenshotUrl":"/imgs/shopping_cart.PNG"
+    },
+    {
+        "id": 6,
+        "title":"Project Management System ( ONGOING )",
+        "desciption":"Permission and role based project management using RILT stack (React, Inertia, Laravel, Tailwind CSS)",
+        "github":"https://github.com/amos-babu/projects-management",
+        "screenshotUrl":"/imgs/project-management.PNG"
     }
 ]
