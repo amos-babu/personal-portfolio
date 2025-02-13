@@ -9,6 +9,10 @@ export default {
       colors: {
         'custom-green': '#1fbb0f',
       },
+      fontFamily:{
+        poppins: ['Poppins', 'sans-serif'],
+        custom: [ 'cursive'],
+      }
     },
   },
   plugins: [],

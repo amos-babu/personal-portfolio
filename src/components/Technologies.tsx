@@ -3,7 +3,7 @@ import tools from "../data/frameworks.json";
 
 export const Technologies = () => {
   return (
-    <div className="grid grid-cols-1 mx-5 mt-10">
+    <div className="grid grid-cols-1 mx-5 mt-2">
       <div>
         <p className="mt-20 mb-5 font-mono text-xl text-center">
           <span className="text-2xl font-bold">Languages</span>

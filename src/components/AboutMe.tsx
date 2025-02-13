@@ -2,7 +2,7 @@ export const AboutMe = () => {
   return (
     <div
       id="target-section"
-      className="grid justify-center grid-cols-1 mx-5 mb-20 min-h-64 tems-center "
+      className="grid justify-center grid-cols-1 mx-5 mb-2 min-h-64 tems-center "
     >
       <div>
         <p className="mb-5 font-mono text-xl font-light leading-tight tracking-wide">

@@ -13,7 +13,7 @@ export const Introduction = () => {
         <img className="rounded-full" src={Profile} alt="Profile picture" />
       </div>
       <div className="w-3/4 mt-6 space-y-4 text-center sm:mt-8 md:mt-10">
-        <p className="font-mono text-xl font-thin text-white">
+        <p className="text-xl font-thin text-white">
           {" "}
           Hi! I'm <span className="font-bold tracking-wide">Amos Babu</span>!
         </p>
