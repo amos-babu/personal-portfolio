@@ -8,10 +8,10 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <>
-      <div className="container grid mx-auto justify-items-center">
+      <div className="container grid mx-auto justify-items-end">
+        <GetInTouch/>
         <Introduction />
         <AboutMe />
-        <GetInTouch />
         <Technologies />
         <Projects />
       </div>

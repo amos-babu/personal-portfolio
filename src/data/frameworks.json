@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "name":"Laravel Logo",
+        "path":"/languages/laravel.svg"
+    },
+    {
+        "id":2,
+        "name":"Livewire Logo",
+        "path":"/languages/livewire.svg"
+    },
+    {
+        "id":3,
+        "name":"Mysql Logo",
+        "path":"/languages/mysql.svg"
+    },
+    {
+        "id":4,
+        "name":"React Logo",
+        "path":"/languages/react.svg"
+    },
+    {
+        "id":5,
+        "name":"Tailwind Logo",
+        "path":"/languages/tailwind-css.svg"
+    },
+    {
+        "id":6,
+        "name":"Typescript Logo",
+        "path":"/languages/typescript.svg"
+    },
+    {
+        "id":7,
+        "name":"Vite Logo",
+        "path":"/languages/vitejs.svg"
+    }
+]
