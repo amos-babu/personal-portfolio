@@ -7,7 +7,7 @@ export const GetInTouch = () => {
         <a
           key={contact.id}
           href={contact.link}
-          className="grid w-10 h-10 bg-gray-500 rounded-md"
+          className="grid w-10 h-10 bg-gray-400 rounded-md"
         >
           <img
             src={contact.path}

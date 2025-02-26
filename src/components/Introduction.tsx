@@ -9,11 +9,11 @@ export const Introduction = () => {
   };
   return (
     <div className="grid grid-cols-1 px-4 justify-items-center mt-9 sm:px-6 md:px-10 lg:px-16">
-      <div className="h-full mt-4 transition duration-300 ease-in-out delay-150 rounded-full sm:w-1/2 md:w-1/4 hover:-translate-y-1 hover:scale-110">
-        <img className="rounded-full" src={Profile} alt="Profile picture" />
+      <div className="mt-4 transition duration-300 ease-in-out delay-150 border-4 rounded-lg sm:w-1/2 md:w-1/4 hover:-translate-y-1 hover:scale-110">
+        <img className="rounded-lg" src={Profile} alt="Profile picture" />
       </div>
       <div className="w-3/4 mt-6 space-y-4 text-center sm:mt-8 md:mt-10">
-        <p className="text-xl font-thin text-white">
+        <p className="font-mono text-xl font-thin text-white font-dancing-script">
           {" "}
           Hi! I'm <span className="font-bold tracking-wide">Amos Babu</span>!
         </p>

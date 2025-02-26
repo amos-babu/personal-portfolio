@@ -6,12 +6,8 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        'custom-green': '#1fbb0f',
-      },
       fontFamily:{
-        poppins: ['Poppins', 'sans-serif'],
-        custom: [ 'cursive'],
+        poppins: ['poppins', 'sans-serif', 'dancing-script'],
       }
     },
   },
