@@ -13,7 +13,7 @@ export const Introduction = () => {
         <img className="rounded-lg" src={Profile} alt="Profile picture" />
       </div>
       <div className="w-3/4 mt-6 space-y-4 text-center sm:mt-8 md:mt-10">
-        <p className="font-mono text-xl font-thin text-white font-dancing-script">
+        <p className="font-mono font-thin text-white text-8xl font-dancing-script">
           {" "}
           Hi! I'm <span className="font-bold tracking-wide">Amos Babu</span>!
         </p>
@@ -21,8 +21,9 @@ export const Introduction = () => {
           {" "}
           <span className="font-bold tracking-wide">
             Full-stack Web Developer
-          </span>{" "}
-          and have a taste for art and music.
+          </span>
+          , <span className="font-bold tracking-wide">Music </span>
+          and <span className="font-bold tracking-wide">Arts</span> Enthusiast .
         </p>
       </div>
       <div
