@@ -5,6 +5,7 @@ export const GetInTouch = () => {
     <div className="flex flex-wrap justify-center gap-2 mt-4">
       {contacts.map((contact) => (
         <a
+          target="_blank"
           key={contact.id}
           href={contact.link}
           className="grid w-10 h-10 bg-gray-400 rounded-md"
