@@ -6,10 +6,6 @@ export const AboutMe = () => {
     >
       <div>
         <p className="mb-5 font-mono text-xl font-light leading-tight tracking-wide">
-          I'm <span className="font-bold tracking-wide">Amos Babu</span> from
-          Nairobi, Kenya.
-        </p>
-        <p className="mb-5 font-mono text-xl font-light leading-tight tracking-wide">
           I'm a passionate web developer with expertise in{" "}
           <span className="font-bold tracking-wide">JavaScript</span> and{" "}
           <span className="font-bold tracking-wide">Laravel</span>. I love
