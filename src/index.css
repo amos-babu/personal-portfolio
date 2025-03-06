@@ -7,3 +7,9 @@
     font-weight: 400;
     src: url(./fonts/Moon-Walk.ttf) format("truetype");
 }
+
+@font-face {
+    font-family: "dancingScript";
+    font-weight: 400;
+    src: url(./fonts/DancingScript-Regular.ttf) format("truetype");
+}
