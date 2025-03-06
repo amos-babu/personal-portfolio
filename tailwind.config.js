@@ -7,8 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        cursive: ['cursive'],
-        moonDance: ['Moon Dance', 'cursive']
+        poppins: ['poppins', 'sans-serif', 'dancing-script'],
       }
     },
   },

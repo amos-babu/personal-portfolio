@@ -2,4 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import '@fontsource/poppins';
+@font-face {
+    font-family: "moonWalk";
+    font-weight: 400;
+    src: url(./fonts/Moon-Walk.ttf) format("truetype");
+}
