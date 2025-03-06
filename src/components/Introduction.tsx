@@ -13,9 +13,13 @@ export const Introduction = () => {
         <img className="rounded-lg" src={Profile} alt="Profile picture" />
       </div>
       <div className="w-3/4 mt-6 space-y-4 text-center sm:mt-8 md:mt-10">
-        <p className="font-[moonWalk] font-thin text-white text-8xl">
+        <p className="font-mono font-thin text-white text-7xl">
           {" "}
-          Hi! I'm <span className="font-bold tracking-wide">Amos Babu</span>!
+          Hi! I'm{" "}
+          <span className="font-bold font-[moonWalk] tracking-wide">
+            Amos Babu
+          </span>
+          !
         </p>
         <p className="pt-5 font-mono text-xl font-thin text-white">
           {" "}
