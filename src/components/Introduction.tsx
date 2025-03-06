@@ -17,7 +17,7 @@ export const Introduction = () => {
           {" "}
           Hi! I'm <span className="font-bold tracking-wide">Amos Babu</span>!
         </p>
-        <p className="pt-5 font-[moonWalk] text-xl font-thin text-white">
+        <p className="pt-5 font-mono text-xl font-thin text-white">
           {" "}
           <span className="font-bold tracking-wide">
             Full-stack Web Developer
