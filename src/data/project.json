@@ -37,7 +37,7 @@
     {
         "id": 6,
         "title":"Project Management System",
-        "desciption":"Permission and role based project management using RILT stack (React, Inertia, Laravel, Tailwind CSS and Shadcn UI for reusable components)",
+        "desciption":"Permission and role based project management using RILT stack (React, Inertia, Laravel, Reverb, Tailwind CSS and Shadcn UI for reusable components)",
         "github":"https://github.com/amos-babu/projects-management",
         "screenshotUrl":"/imgs/project-management.PNG"
     }
