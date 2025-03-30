@@ -114,7 +114,7 @@ Feel free to reach out to me:
 
 - Email: amos.babu@yahoo.com
 - LinkedIn: [Amos Babu](https://www.linkedin.com/in/amos-babu-275597202/)
-- My Portfolio: [Amos Babu](https://amos-babu.netlify.app)
+- My Portfolio: [Amos Babu](https://amosbabu.netlify.app)
 
 ---
 
