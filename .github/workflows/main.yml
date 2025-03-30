@@ -1,0 +1,16 @@
+name: Deploy to Netlify
+
+on:
+  push:
+    branches: [master]
+     
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps: 
+— uses: actions/checkout@v3 
+
+— name: “Deployed site” 
+  run: curl -X POST -d {} https://api.netlify.com/build_hooks/67e8e2d211d8c8d17577a847
