@@ -1,6 +1,7 @@
 [
     {
         "id":1,
+        "xLanguage": -100,
         "name":"JavaScript Logo",
         "path":"/languages/javascript.svg"
     },
@@ -11,6 +12,7 @@
     },
     {
         "id":3,
+        "xLanguage": 100,
         "name":"Python Logo",
         "path":"/languages/python.svg"
     }

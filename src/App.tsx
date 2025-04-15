@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <>
-      <div className="container grid mx-auto justify-items-end">
+      <div className="flex flex-col mx-auto justify-items-end">
         <GetInTouch/>
         <Introduction />
         <AboutMe />

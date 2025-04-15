@@ -40,5 +40,12 @@
         "desciption":"Permission and role based project management using RILT stack (React, Inertia, Laravel, Reverb, Tailwind CSS and Shadcn UI for reusable components)",
         "github":"https://github.com/amos-babu/projects-management",
         "screenshotUrl":"/imgs/project-management.PNG"
+    },
+    {
+        "id": 7,
+        "title":"Company Website",
+        "desciption":"React Tailwind landing page using framer motions, and also minimal express api for contact form messages to company email",
+        "github":"https://github.com/amos-babu/vinray_engineering",
+        "screenshotUrl":"/imgs/vinray-eng.PNG"
     }
 ]

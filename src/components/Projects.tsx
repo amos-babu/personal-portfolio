@@ -7,7 +7,7 @@ const Projects = () => {
         Projects
       </div>
 
-      <div className="flex flex-col flex-wrap justify-center gap-20 mb-10 md:flex-row">
+      <div className="flex flex-col flex-wrap items-center justify-center gap-20 mb-10 itmes md:flex-row">
         {projects.map((project) => (
           <div
             key={project.id}
