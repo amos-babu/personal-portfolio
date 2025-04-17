@@ -1,6 +1,19 @@
 import projects from "../data/project.json";
+import { motion } from "framer-motion";
 
 const Projects = () => {
+  const projectCardsVariants = (duration: number) => ({
+    initial: { x: -10 },
+    animate: {
+      x: [10, -10],
+      transition: {
+        duration: duration,
+        ease: "linear",
+        repeat: Infinity,
+        repeatType: "reverse" as "reverse",
+      },
+    },
+  });
   return (
     <div className="mx-5 mt-20">
       <div className="mb-10 font-mono text-2xl font-bold text-center">
@@ -9,7 +22,10 @@ const Projects = () => {
 
       <div className="flex flex-col flex-wrap items-center justify-center gap-20 mb-10 itmes md:flex-row">
         {projects.map((project) => (
-          <div
+          <motion.div
+            variants={projectCardsVariants(project.iconVariants)}
+            initial="initial"
+            animate="animate"
             key={project.id}
             className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
           >
@@ -57,7 +73,7 @@ const Projects = () => {
                 </svg>
               </a>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>

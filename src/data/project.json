@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "iconVariants": 2.5,
         "title":"Books Laravel Api",
         "desciption":"This repository manages books using Laravel as a REST API, allowing adding, updating, deleting, and listing books while following Laravel best practices for efficiency and robustness.",
         "github":"https://github.com/amos-babu/react_api",
@@ -8,6 +9,7 @@
     },
     {
         "id": 2,
+        "iconVariants": 3,
         "title":"Dxf downloader and uploader",
         "desciption":"React application with Laravel as a Rest Api for downloading, uploading, and displaying dxf and picture files.",
         "github":"https://github.com/amos-babu/dxf_downloader_uploader-backend-",
@@ -15,6 +17,7 @@
     },
     {
         "id": 3,
+        "iconVariants": 4,
         "title":"Realtime messaging application",
         "desciption":"This is a Realtime Chat Application built with Laravel Livewire, Tailwind CSS, and Reverb for managing real time messages when messaging you friends and loved ones.",
         "github":"https://github.com/amos-babu/realtime-chat-application",
@@ -22,6 +25,7 @@
     },
     {
         "id": 4,
+        "iconVariants": 5,
         "title":"eCommerce System",
         "desciption":"eCommerce application system using Laravel as API server and React as client frontend",
         "github":"https://github.com/amos-babu/online-ecommerce-system",
@@ -29,6 +33,7 @@
     },
     {
         "id": 5,
+        "iconVariants": 4,
         "title":"Shopping Cart",
         "desciption":"Advanced shopping cart using react and typescript",
         "github":"https://github.com/amos-babu/advanced_shopping_cart_typescript_react",
@@ -36,6 +41,7 @@
     },
     {
         "id": 6,
+        "iconVariants": 3.5,
         "title":"Project Management System",
         "desciption":"Permission and role based project management using RILT stack (React, Inertia, Laravel, Reverb, Tailwind CSS and Shadcn UI for reusable components)",
         "github":"https://github.com/amos-babu/projects-management",
@@ -43,6 +49,7 @@
     },
     {
         "id": 7,
+        "iconVariants": 2,
         "title":"Company Website",
         "desciption":"React Tailwind landing page using framer motions, and also minimal express api for contact form messages to company email",
         "github":"https://github.com/amos-babu/vinray_engineering",
