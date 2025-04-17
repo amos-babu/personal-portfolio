@@ -19,7 +19,8 @@ Welcome to my personal portfolio! This project showcases my skills, experience, 
 - **React**: Frontend framework for building a dynamic UI.
 - **Tailwind CSS**: For styling the application with modern, utility-first classes.
 - **React Router**: For navigation between pages.
--  **Typescript**: For handling the type setting nature of javascript.
+- **Framer-motion**: For animations.
+- **Typescript**: For handling the type setting nature of javascript.
 - **EmailJS**: For handling the contact form submissions.
 
 ---
@@ -29,21 +30,25 @@ Welcome to my personal portfolio! This project showcases my skills, experience, 
 Follow these steps to run the project locally:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/amos-babu/personal-portfolio.git
    ```
 
 2. Navigate to the project folder:
+
    ```bash
    cd personal-portfolio
    ```
 
 3. Install dependencies:
+
    ```bash
    npm install
    ```
 
 4. Start the development server:
+
    ```bash
    npm run dev
    ```
@@ -81,12 +86,15 @@ portfolio/
 This portfolio can be deployed to platforms like **Netlify**, **Vercel**, or **GitHub Pages**. For example:
 
 ### Deploying to GitHub Pages:
+
 1. Install the `gh-pages` package:
+
    ```bash
    npm install gh-pages --save-dev
    ```
 
 2. Add the following scripts to `package.json`:
+
    ```json
    "homepage": "https://yourusername.github.io/your-portfolio",
    "scripts": {
@@ -119,4 +127,3 @@ Feel free to reach out to me:
 ---
 
 Thank you for visiting my portfolio!
-
