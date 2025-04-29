@@ -16,7 +16,7 @@ export const GetInTouch = () => {
   });
 
   return (
-    <div className="flex flex-wrap justify-center gap-4 mt-4">
+    <div className="flex flex-wrap items-center justify-center gap-4 mt-4">
       {contacts.map((contact) => (
         <motion.a
           variants={iconVariants(contact.iconVariants)}

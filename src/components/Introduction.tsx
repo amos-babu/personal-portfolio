@@ -12,7 +12,7 @@ export const Introduction = () => {
   });
   return (
     <div className="flex flex-col-reverse items-center justify-center gap-10 px-4 md:flex-row mt-9 sm:px-6 md:px-10 lg:px-16">
-      <div className="w-1/2 mt-4 transition duration-300 ease-in-out delay-150 rounded-lg sm:w-1/2 md:w-1/4 hover:-translate-y-1 hover:scale-110">
+      <div className="self-center w-1/2 transition duration-300 ease-in-out delay-150 rounded-lg justify-self-center self sm:w-1/2 md:w-1/4 hover:-translate-y-1 hover:scale-110">
         <motion.img
           variants={container(0, -100)}
           initial="hidden"
