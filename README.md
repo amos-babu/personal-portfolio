@@ -84,7 +84,7 @@ portfolio/
 ## Deployment
 
 This portfolio can be deployed to platforms like **Netlify**, **Vercel**, or **GitHub Pages**. For example:
-The deployments is automated using github actions, any changes made are automatically deployed.
+The deployments are automated using github actions, any changes made are automatically deployed after running installing dependencies and testing.
 
 ### Deploying to GitHub Pages:
 
