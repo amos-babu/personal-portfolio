@@ -84,6 +84,7 @@ portfolio/
 ## Deployment
 
 This portfolio can be deployed to platforms like **Netlify**, **Vercel**, or **GitHub Pages**. For example:
+The deployments is automated using github actions, any changes made are automatically deployed.
 
 ### Deploying to GitHub Pages:
 
@@ -122,7 +123,7 @@ Feel free to reach out to me:
 
 - Email: amos.babu@yahoo.com
 - LinkedIn: [Amos Babu](https://www.linkedin.com/in/amos-babu-275597202/)
-- My Portfolio: [Amos Babu](https://amosbabu.netlify.app)
+- My Portfolio: [Amos Babu](https://amosbabu.co.ke)
 
 ---
 
