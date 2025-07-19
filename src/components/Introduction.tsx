@@ -11,8 +11,8 @@ export const Introduction = () => {
     },
   });
   return (
-    <div className="flex flex-col-reverse items-center justify-center gap-10 px-4 md:flex-row mt-9 sm:px-6 md:px-10 lg:px-16">
-      <div className="self-center w-1/2 transition duration-300 ease-in-out delay-150 rounded-lg justify-self-center self sm:w-1/2 md:w-1/4 hover:-translate-y-1 hover:scale-110">
+    <div className="flex md:justify-center mt-9 md:px-10 lg:px-16">
+      {/* <div className="self-center w-1/2 transition duration-300 ease-in-out delay-150 rounded-lg justify-self-center self sm:w-1/2 md:w-1/4 hover:-translate-y-1 hover:scale-110">
         <motion.img
           variants={container(0, -100)}
           initial="hidden"
@@ -21,13 +21,13 @@ export const Introduction = () => {
           src={Profile}
           alt="Profile picture"
         />
-      </div>
-      <div className="w-1/2 mt-6 space-y-4 text-center sm:mt-8 md:mt-10">
+      </div> */}
+      <div className="w-full lg:w-3/4 mt-6 px-3 space-y-4 sm:mt-8 md:mt-10">
         <motion.p
           variants={container(0, 100)}
           initial="hidden"
           animate="visible"
-          className="text-white text-5xl font-bold font-[moonWalk] tracking-wide"
+          className="text-gray-400 text-3xl md:text-5xl font-bold font-inter tracking-wide"
         >
           Amos Babu
         </motion.p>
@@ -35,14 +35,14 @@ export const Introduction = () => {
           variants={container(1, 100)}
           initial="hidden"
           animate="visible"
-          className="pt-5 font-mono text-xl font-thin text-white"
+          className="pt-5 font-inter text-xl font- text-gray-400"
         >
           {" "}
-          <span className="font-bold tracking-wide">
-            Full-stack Web Developer,{" "}
-          </span>
-          <span className="font-bold tracking-wide">Music </span>
-          and <span className="font-bold tracking-wide">Arts</span> Enthusiast.
+           I'm a curious, code-slinging developer with a love for 
+           building cool stuff on the web. Whether it's APIs in Laravel, 
+           pixel-perfect UIs in React, or unleashing some Go magic, 
+           I’m all in. I like writing code that *works*, is clean, and 
+           sometimes even clever.
         </motion.p>
       </div>
     </div>

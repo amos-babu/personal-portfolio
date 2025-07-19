@@ -1,15 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: "moonWalk";
-    font-weight: 400;
-    src: url(./fonts/Moon-Walk.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "dancingScript";
-    font-weight: 400;
-    src: url(./fonts/DancingScript-Regular.ttf) format("truetype");
+@layer base {
+    html {
+        font-family: 'Inter', sans-serif;
+    }
 }
