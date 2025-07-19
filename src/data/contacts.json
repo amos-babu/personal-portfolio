@@ -1,33 +1,22 @@
 [
     {
-        "id":1,
-        "iconVariants": 2.5,
-        "path":"/socials/linkedin.svg",
-        "link":"https://www.linkedin.com/in/amos-babu-275597202/"
+        "id": 1,
+        "path": "/socials/linkedin.svg",
+        "link": "https://www.linkedin.com/in/amos-babu-275597202/"
     },
     {
-        "id":2,
-        "iconVariants": 3,
-        "path":"/socials/github.svg",
-        "link":"https://github.com/amos-babu"
+        "id": 2,
+        "path": "/socials/github.svg",
+        "link": "https://github.com/amos-babu"
     },
     {
-        "id":3,
-        "iconVariants": 5,
-        "path":"/socials/bluesky.svg",
-        "link":"https://amos-babu.bsky.social"
+        "id": 3,
+        "path": "/socials/instagram.svg",
+        "link": "https://www.instagram.com/_ok_amos/"
     },
     {
-        "id":4,
-        "iconVariants": 2,
-        "path":"/socials/instagram.svg",
-        "link":"https://www.instagram.com/_ok_amos/"
-    },
-    {
-        "id":5,
-        "iconVariants": 2.5,
-        "path":"/socials/facebook.svg",
-        "link":"https://www.facebook.com/people/Amos-Babu/"
+        "id": 4,
+        "path": "/socials/facebook.svg",
+        "link": "https://www.facebook.com/people/Amos-Babu/"
     }
-
 ]
