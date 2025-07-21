@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 export const AboutMe = () => {
   return (
     <motion.div
-      className="flex flex-col items-center justify-center px-4 mx-5 mt-20 mb-2"
+      className="flex flex-col items-center justify-center px-4 mt-20 mb-2"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 2.0 }}
       viewport={{ once: true }}
     >
-      <div className="max-w-5xl">
+      <div className="w-full lg:w-3/4 mt-6 space-y-4 sm:mt-8 md:mt-10">
         <p className="mb-5 font-mono text-lg font-light leading-tight tracking-wide md:text-xl">
           I am an ardent web developer proficient in JavaScript and Laravel. I
           enjoy solving problems and creating high-performance backends,
