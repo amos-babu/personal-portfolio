@@ -17,7 +17,13 @@ export const Technologies = () => {
   });
 
   return (
-    <div className="flex flex-col mx-5">
+    <motion.div
+      className="flex flex-col mx-5"
+      initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 2.0 }}
+      viewport={{ once: true }}
+    >
       <div>
         <p className="mt-20 mb-5 font-mono text-xl text-center">
           <span className="text-2xl font-bold">Languages</span>
@@ -54,6 +60,6 @@ export const Technologies = () => {
           </motion.div>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };

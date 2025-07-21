@@ -6,7 +6,7 @@ export const AboutMe = () => {
       className="flex flex-col items-center justify-center px-4 mx-5 mt-20 mb-2"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.8 }}
+      transition={{ duration: 2.0 }}
       viewport={{ once: true }}
     >
       <div className="max-w-5xl">

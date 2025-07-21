@@ -11,8 +11,8 @@ export default {
         poppins: ['dancing-script', 'inter', 'sans-serif'],
       },
       colors: {
-        midnight: '#c4dee7',
-        midday:'#27541d',
+        midnight: '#37574d',
+        midday:'#55277d',
         // primary: colors.midnight,
       },
     },
