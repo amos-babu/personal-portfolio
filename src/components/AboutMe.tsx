@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export const AboutMe = () => {
   return (
     <motion.div
-      className="flex flex-col items-center justify-center px-4 mt-20 mb-2"
+      className="flex flex-col items-center justify-center px-4 mt-10 mb-2"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 2.0 }}
