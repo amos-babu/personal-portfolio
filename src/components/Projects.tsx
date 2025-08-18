@@ -16,15 +16,24 @@ const Projects = () => {
   });
   return (
     <div className="mx-5 mt-20">
-      <div className="mb-10 font-mono text-2xl font-bold text-center">
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.0 }}
+        viewport={{ once: true }}
+        className="mb-10 font-mono text-2xl font-bold text-center"
+      >
         Projects
-      </div>
+      </motion.div>
 
       <div className="flex flex-col flex-wrap items-center justify-center gap-20 mb-10 itmes md:flex-row">
         {projects.map((project) => (
           <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.0 }}
+            viewport={{ once: true }}
             variants={projectCardsVariants(project.iconVariants)}
-            initial="initial"
             animate="animate"
             key={project.id}
             className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
