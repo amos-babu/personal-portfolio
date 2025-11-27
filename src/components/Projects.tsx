@@ -2,18 +2,18 @@ import projects from "../data/project.json";
 import { motion } from "framer-motion";
 
 const Projects = () => {
-  const projectCardsVariants = (duration: number) => ({
-    initial: { x: -10 },
-    animate: {
-      x: [10, -10],
-      transition: {
-        duration: duration,
-        ease: "linear",
-        repeat: Infinity,
-        repeatType: "reverse" as "reverse",
-      },
-    },
-  });
+  // const projectCardsVariants = (duration: number) => ({
+  //   initial: { x: -10 },
+  //   animate: {
+  //     x: [10, -10],
+  //     transition: {
+  //       duration: duration,
+  //       ease: "linear",
+  //       repeat: Infinity,
+  //       repeatType: "reverse" as "reverse",
+  //     },
+  //   },
+  // });
   return (
     <div className="mx-5 mt-20">
       <motion.div
@@ -33,7 +33,7 @@ const Projects = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.0 }}
             viewport={{ once: true }}
-            variants={projectCardsVariants(project.iconVariants)}
+            // variants={projectCardsVariants(project.iconVariants)}
             animate="animate"
             key={project.id}
             className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
